@@ -1,14 +1,14 @@
 ***
 
-# GENELink2
+# GeneLink2
 
 Advancing Cell-Type-Specific Gene Regulatory Network Inference from Transcriptomics Data at Cellular Resolution
 
 ## 1.Introduction
 
-**GENElink2**, an enhanced version of GENElink, is designed to infer **ctGRNs** from transcriptomic data at cellular or sub-cellular resolution. It utilizes **GATv2**, which replaces GAT's fixed linear transformation with a flexible, learnable parameterized transformation, enabling the capture of more complex gene relationships. To address gene node homogenization from over-smoothing, GENElink2 incorporates a residual module with skip connections that retain gene-specific information. Additionally, we improved negative sample selection during training by combining hard negative sampling with network analysis techniques and specific constraints.The figure below shows the overall framework of GENELink2.
+**Genelink2**, an enhanced version of GENElink, is designed to infer **ctGRNs** from transcriptomic data at cellular or sub-cellular resolution. It utilizes **GATv2**, which replaces GAT's fixed linear transformation with a flexible, learnable parameterized transformation, enabling the capture of more complex gene relationships. To address gene node homogenization from over-smoothing, Genelink2 incorporates a residual module with skip connections that retain gene-specific information. Additionally, we improved negative sample selection during training by combining hard negative sampling with network analysis techniques and specific constraints.The figure below shows the overall framework of GeneLink2.
 
-![Fig 1.Overview of GENELink2 framework.](./figures/Figure_1.jpg)
+![Fig 1.Overview of GeneLink2 framework.](./figures/Figure_1.jpg)
 
 The environments in which this program can run stably are for reference only:
 
